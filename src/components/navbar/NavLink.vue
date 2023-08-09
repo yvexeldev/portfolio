@@ -1,9 +1,22 @@
 <template>
-	<div
-		class="px-3 text-lg py-2 flex items-center rounded-md cursor-pointer dark:text-white text-dark dark:hover:bg-gray-700 duration-300 hover:bg-gray-200"
-	>
-		<slot></slot>
-	</div>
+    <RouterLink
+        :to="props.to"
+        class="px-3 text-lg py-2 flex items-center cursor-pointer bg-transparent dark:text-white text-dark dark:hover:text-primary-hover duration-300 hover:text-primary"
+    >
+        <slot></slot>
+    </RouterLink>
 </template>
-<script setup></script>
-<style></style>
+<script setup>
+import { RouterLink } from 'vue-router';
+const props = defineProps({
+    to: {
+        type: String,
+        required: true,
+    },
+});
+</script>
+<style>
+.r-active {
+    color: #4ade80 !important;
+}
+</style>
