@@ -3,8 +3,8 @@ import { Icon } from '@iconify/vue';
 </script>
 
 <template>
-    <div class="mt-40">
-        <div class="flex items-center justify-center gap-3 text-3xl mb-2">
+    <div class="lg:mb-4 mb-3 ">
+        <div class="flex items-center justify-center gap-3 lg:text-3xl text-xl">
             <a href="https://github.com/abdusalomovdev">
                 <Icon
                     icon="mdi:github"
@@ -31,7 +31,7 @@ import { Icon } from '@iconify/vue';
                 />
             </a>
         </div>
-        <p class="text-center dark:text-white text-[15px] mb-5">
+        <p class="text-center dark:text-white lg:text-[15px] mt-1 text-[10px]">
             Copyright © {{ new Date().getFullYear() }} • A'zam's blog - A'zam's coding journey
         </p>
     </div>

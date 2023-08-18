@@ -1,7 +1,7 @@
 <template>
     <RouterLink
         :to="props.to"
-        class="px-3 text-lg py-2 flex items-center cursor-pointer bg-transparent dark:text-white text-dark dark:hover:text-primary-hover duration-300 hover:text-primary"
+        class="lg:px-3 lg:text-lg lg:py-2 flex items-center cursor-pointer bg-transparent dark:text-white text-dark dark:hover:text-primary-hover duration-300 hover:text-primary"
     >
         <slot></slot>
     </RouterLink>
@@ -15,8 +15,4 @@ const props = defineProps({
     },
 });
 </script>
-<style>
-.r-active {
-    color: #4ade80 !important;
-}
-</style>
+<style></style>

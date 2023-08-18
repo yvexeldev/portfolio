@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-    <div class="lg:w-8/12 mx-auto">
+    <div class="lg:container">
         <slot></slot>
     </div>
 </template>

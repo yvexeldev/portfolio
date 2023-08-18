@@ -5,7 +5,7 @@
             transition: 'transform 0.25s ease-out',
         }"
         ref="target"
-        class="card w-full z-10 hover:z-50 dark:shadow-3xl min-h-[28.75rem] flex flex-col gap-3 rounded-md border border-primary"
+        class="card w-full z-10 hover:z-50 dark:shadow-3xl min-h-[28.75rem]  flex-col gap-3 rounded-md border border-primary"
     >
         <img class="w-full h-[25rem] rounded-t-md" src="/bg.png" alt="" />
 
@@ -36,7 +36,7 @@
                 </h1>
             </div>
         </div>
-        <span class="h-1.5 rounded-b-md bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"></span>
+        <span class="h-1.5 block rounded-b-md bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"></span>
     </div>
 </template>
 <script setup>

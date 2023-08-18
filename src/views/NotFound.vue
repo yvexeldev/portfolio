@@ -17,7 +17,7 @@ const cardTransform = computed(() => {
 </script>
 
 <template>
-    <div class="flex items-center justify-center gap-6 flex-col">
+    <div class="flex items-center justify-center gap-6 flex-col mb-40">
         <img
             src="/404.webp"
             class="h-[32rem]"

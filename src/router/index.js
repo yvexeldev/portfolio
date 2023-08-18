@@ -1,22 +1,23 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HeaderViewVue from '../views/HeaderView.vue';
+import HeroView from '@/views/HeroView.vue';
 import NotFound from '@/views/NotFound.vue';
 import ComingSoon from '@/views/ComingSoon.vue';
 import Resume from '@/components/resume/Resume.vue';
+import Contact from '@/components/contact/Contact.vue';
 
 const router = createRouter({
-    linkActiveClass: 'dark:!text-primary !text-primary-hover',
+    linkActiveClass: '!bg-clip-text !text-transparent !bg-gradient-to-r !from-green-400 !font-bold !to-blue-400 ',
     history: createWebHistory(import.meta.env.BASE_URL),
     routes: [
         {
             path: '/home',
             name: 'header',
-            component: HeaderViewVue,
+            component: HeroView,
         },
         {
             path: '/',
             name: 'home',
-            component: HeaderViewVue,
+            component: HeroView,
         },
         {
             path: '/blog',
@@ -28,14 +29,8 @@ const router = createRouter({
             component: Resume,
         },
         {
-            path: '/about',
-            component: ComingSoon,
-            // FIXME: FIX AFTER CREATING ABOUT COMPONENT!
-        },
-        {
             path: '/contact',
-            component: ComingSoon,
-            // FIXME: FIX AFTER CREATING CONTACT COMPONENT!
+            component: Contact,
         },
 
         {
