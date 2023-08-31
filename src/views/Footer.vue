@@ -3,7 +3,7 @@ import { Icon } from '@iconify/vue';
 </script>
 
 <template>
-    <div class="lg:mb-4 mb-3 ">
+    <div class="lg:mb-4 mb-3">
         <div class="flex items-center justify-center gap-3 lg:text-3xl text-xl">
             <a href="https://github.com/abdusalomovdev">
                 <Icon

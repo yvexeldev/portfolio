@@ -26,6 +26,7 @@ const router = createRouter({
         },
         {
             path: '/resume',
+            name: "Resume",
             component: Resume,
         },
         {

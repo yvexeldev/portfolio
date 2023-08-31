@@ -44,6 +44,20 @@ export const resume = {
         '-Experience with Telegram bots using telegraf.js and node-telegram- bot-api',
         '-Experience with Web Apps with Vue.js, TailwindCSS, Vue Router, VueX',
     ],
+    languages: [
+        {
+            lang: 'Russian',
+            level: 'Advanced/C1',
+        },
+        {
+            lang: 'English',
+            level: 'Pre Intermediate/B1',
+        },
+        {
+            lang: 'Uzbek',
+            level: 'Fluent',
+        },
+    ],
     experience: [
         {
             companyName: 'Homedev.uz',

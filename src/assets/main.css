@@ -4,6 +4,7 @@
 
 *::selection {
   background-color: #4ADE80;
+  border-radius: 10px;
   color: white;
 }
 

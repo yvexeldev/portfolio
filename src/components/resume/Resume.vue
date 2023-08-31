@@ -118,6 +118,15 @@ import { resume } from '@/constants';
                     {{ stack }}
                 </li>
             </ul>
+
+            <p class="dark:text-gray-300 text-gray-700 lg:text-4xl text-2xl font-semibold font-serif lg:mb-2 mb-1 mt-5">Languages</p>
+            <hr class="dark:bg-gray-300 bg-gray-900 dark:h-0 lg:mb-4 mb-2 h-[2px]" />
+
+            <ul>
+                <li v-for='language in resume.languages' :key='language.lang' class='[&>*]:lg:text-3xl [&>*]:text-lg  dark:text-white flex gap-2 justify-between'>
+                    <span class='font-serif font-bold'>{{ language.lang }}</span> <span>{{language.level}}</span>
+                </li>
+            </ul>
         </div>
         <a
             href="https://drive.google.com/file/d/1vZH4bzfUdz-jUQ7ANKprGauWEyjxXuXa/view"
