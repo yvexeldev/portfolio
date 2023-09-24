@@ -1,18 +1,5 @@
 <script setup>
-const currentRoute = window.location.href.split('http://localhost:5173')[1]
-const color =
-  currentRoute === '/'
-    ? 'text-violet-400'
-    : currentRoute === '/about'
-    ? 'text-green-400'
-    : currentRoute === '/resume'
-    ? 'text-yellow-400'
-    : currentRoute === '/contact'
-    ? 'text-blue-400'
-    : currentRoute === '/reminder'
-    ? 'text-orange-400'
-    : 'text-violet-400'
-console.log(currentRoute)
+const color = 'text-violet-400'
 </script>
 
 <template>

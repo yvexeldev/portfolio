@@ -11,7 +11,8 @@ module.exports = {
         center: true
       },
       fontFamily: {
-        biotif: ["Biotif"]
+        biotif: ["Biotif"],
+        neuzerit: ["Neuzerit Grotesk"]
       }
     },
   },

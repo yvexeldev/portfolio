@@ -1,9 +1,9 @@
 <template>
   <div class="flex flex-col h-screen">
     <div>
-      <Navbar/>
+      <Navbar />
     </div>
-    <div class="container lg:px-[200px] flex-1">
+    <div class="container lg:px-[13rem] flex-1">
       <RouterView />
     </div>
     <div class="mt-auto">
