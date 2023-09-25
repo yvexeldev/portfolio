@@ -15,7 +15,7 @@ import { heroSection } from '@/constants'
     </p>
   </div>
   <button
-    @click="openModal"
+    @click="console.log('Clicked')"
     class="px-[10px] font-biotif font-bold py-[10px] rounded-md duration-300 ease-in-out hover:bg-[#212024]"
   >
     Press <kbd>⌘</kbd> <kbd>K</kbd> to start →
