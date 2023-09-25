@@ -39,7 +39,7 @@ kbd {
     display: block;
     width: 65%;
     height: 3px;
-    background: rgb(128, 96, 224);
+    background: #fff;
     transition: width 0.3s;
 }
 

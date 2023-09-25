@@ -26,12 +26,12 @@ export const heroSection = {
 export const footerLinks = [
   {
     title: 'telegram',
-    link: 'https://t.me/yvexel',
+    link: 'https://t.me/gruppenfurerr',
     icon: 'iconoir:telegram'
   },
   {
     title: 'github',
-    link: 'https://github.com/yvexel',
+    link: 'https://github.com/yvexeldev',
     icon: 'teenyicons:github-outline'
   },
   {
